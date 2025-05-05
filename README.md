@@ -1,6 +1,7 @@
 # model-deployment
 ## 1. Hotel Booking Status Classifier – Project Summary
 [`streamlit/hotel-booking-status-binary-classification`](streamlit/hotel-booking-status-binary-classification)
+
 The Hotel Booking Status Classifier is a machine learning project designed to predict whether a hotel reservation will be honored or canceled. Utilizing structured booking data and the XGBoost algorithm, this model provides reliable predictions to assist hotel management in optimizing operational planning and reducing revenue loss due to cancellations.
 
 ### 📌 Key Objectives
