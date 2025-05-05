@@ -18,9 +18,3 @@ The Hotel Booking Status Classifier is a machine learning project designed to pr
 ### 🚀 Live Demo
 Try the interactive app here:
 👉 https://reservation-flow.streamlit.app/
-
-### 🖼️ Visual Outputs
-Sample model outputs include visual indications of predicted booking statuses:
-- Not Canceled
-- Canceled
-'
