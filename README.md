@@ -1,4 +1,4 @@
-# model-deployment
+# Index
 ## 1. Hotel Booking Status Classifier – Project Summary
 [`Click here to see the details`](streamlit/hotel-booking-status-binary-classification)
 
@@ -18,3 +18,5 @@ The Hotel Booking Status Classifier is a machine learning project designed to pr
 ### 🚀 Live Demo
 Try the interactive app here:
 👉 https://reservation-flow.streamlit.app/
+
+## 2. Netflix Movie Recommendation
