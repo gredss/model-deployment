@@ -20,3 +20,4 @@ Try the interactive app here:
 👉 https://reservation-flow.streamlit.app/
 
 ## 2. Netflix Movie Recommendation
+## 3. Obesity Predictor
