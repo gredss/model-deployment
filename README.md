@@ -21,7 +21,8 @@ Try the interactive app here:
 
 ## 2. Netflix Movie Recommendation
 ## 3. Obesity Predictor
-[`Click here to see the details`](streamlit/hotel-booking-status-binary-classification)
+[`Click here to see the details`](streamlit/netflix-hybrid-recommender)
+
 The Netflix Title Recommender is a hybrid web-based application that delivers intelligent, content-based title recommendations using FastAPI and Streamlit. At its core, it employs TF-IDF vectorization, dimensionality reduction, and cosine-based similarity to match titles based on metadata such as description, genres, cast, and director. The system supports robust fallback behavior for unseen (cold-start) queries and is optimized for real-time response via a production-ready FastAPI backend.
 
 ### 📌 Key Objectives
