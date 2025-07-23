@@ -45,10 +45,11 @@ The system follows a clean separation between backend and frontend:
 - Streamlit: consumes the API and displays structured recommendation results to users via an interactive web UI.
 - Pickle: used to load all pre-trained models and vectorizers in a stateless server process.
 
-📄 Final Report
+### 📄 Final Report
 Access the full methodology and system design [here](https://github.com/your-username/model-deployment/blob/main/streamlit/netflix-hybrid-recommender/final-report.pdf).
 
-🚀 Live Demo
-Try the deployed application here: 👉 Netflix Recommender Web App
+### 🚀 Live Demo
+Try the deployed application here:
+👉 Netflix Recommender Web App
 
 
