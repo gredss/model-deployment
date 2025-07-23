@@ -1,4 +1,3 @@
-````markdown
 # Content-Based Filtering for Netflix Title Recommendations
 ## Project Overview
 
