@@ -2,6 +2,7 @@
 ## Project Overview
 
 This project implements a content-based recommendation system for Netflix titles using TF-IDF vectorization and cosine similarity. The model generates recommendations by comparing textual metadata such as description, genres, cast, and director. Dimensionality reduction is applied for scalability, and a fallback strategy is designed for handling cold-start queries.
+A comprehensive report detailing the methodology and evaluation results is available [here](streamlit/netflix-hybrid-recommender/final-report.pdf).
 
 ---
 
