@@ -21,3 +21,33 @@ Try the interactive app here:
 
 ## 2. Netflix Movie Recommendation
 ## 3. Obesity Predictor
+[`Click here to see the details`](streamlit/hotel-booking-status-binary-classification)
+The Netflix Title Recommender is a hybrid web-based application that delivers intelligent, content-based title recommendations using FastAPI and Streamlit. At its core, it employs TF-IDF vectorization, dimensionality reduction, and cosine-based similarity to match titles based on metadata such as description, genres, cast, and director. The system supports robust fallback behavior for unseen (cold-start) queries and is optimized for real-time response via a production-ready FastAPI backend.
+
+### 📌 Key Objectives
+- Develop a personalized content-based filtering model that recommends Netflix titles using natural language metadata.
+- Expose the recommendation engine as a scalable RESTful API using FastAPI, enabling stateless, low-latency inference.
+- Build an intuitive Streamlit frontend that interacts with the API for end-user accessibility.
+
+### 🔍 Core Features
+- Advanced natural language preprocessing: normalization, tokenization, POS tagging, lemmatization, and stopword removal
+- Weighted multi-field TF-IDF vectorization over description, genres, director, cast, and country
+- Dimensionality reduction with Truncated SVD to ensure computational efficiency
+- Scalable similarity search using NearestNeighbors, with fallback genre-based recommendations
+- Fully modular backend exposed via FastAPI endpoints for top-N recommendations
+- Serialized components (.pkl) for deployable model persistence
+- Lightweight Streamlit interface that connects to the FastAPI service, allowing real-time title queries and visual recommendations
+
+### ⚙️ Deployment Architecture
+The system follows a clean separation between backend and frontend:
+- FastAPI: hosts the core /recommend API endpoint, handling vector retrieval and similarity inference.
+- Streamlit: consumes the API and displays structured recommendation results to users via an interactive web UI.
+- Pickle: used to load all pre-trained models and vectorizers in a stateless server process.
+
+📄 Final Report
+Access the full methodology and system design [here](https://github.com/your-username/model-deployment/blob/main/streamlit/netflix-hybrid-recommender/final-report.pdf).
+
+🚀 Live Demo
+Try the deployed application here: 👉 Netflix Recommender Web App
+
+
